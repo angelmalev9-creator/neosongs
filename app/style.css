@@ -1,0 +1,34 @@
+*{box-sizing:border-box}
+body{margin:0;background:#06080c;color:#f7f9ff;font-family:Arial,sans-serif}
+body:before{content:'';position:fixed;inset:0;background:radial-gradient(circle at 70% 5%,#092e4b88,transparent 35%),radial-gradient(circle at 15% 45%,#071d3d66,transparent 30%);pointer-events:none}
+main{position:relative;max-width:1100px;margin:auto;padding:0 24px 80px}
+header{height:86px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12}
+header b{font-size:22px;letter-spacing:2px}
+header i,header span,h1 em{font-style:normal;color:#27a8ff}
+.credit{font-size:11px;border:1px solid #159cff55;background:#0b2030;padding:9px 12px;border-radius:30px;color:#7dccff}
+.hero{text-align:center;padding:72px 0 38px}
+.eyebrow,label{font-size:11px;letter-spacing:2px;color:#6fbfff;font-weight:700}
+h1{font-size:52px;line-height:1.05;margin:12px 0}
+.sub{color:#8f99aa}
+.studio{max-width:700px;margin:auto;padding:24px;border:1px solid #ffffff16;background:#0d1118cc;border-radius:24px;box-shadow:0 30px 90px #000}
+.tabs{display:flex;gap:28px;border-bottom:1px solid #ffffff12;padding-bottom:18px;margin-bottom:22px}
+.tabs strong{color:#41b5ff}
+.tabs span{color:#697384}
+label{display:block;margin:18px 0 8px}
+textarea,select{width:100%;background:#080b10;color:white;border:1px solid #ffffff17;border-radius:13px;padding:15px;outline:none}
+textarea{height:190px;resize:vertical}
+.style{height:82px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+button{width:100%;margin-top:24px;padding:17px;border:0;border-radius:13px;background:linear-gradient(90deg,#087bff,#21c2ff);color:white;font-weight:800;letter-spacing:.8px;font-size:14px;box-shadow:0 10px 35px #008cff35;cursor:pointer}
+.note{text-align:center;color:#626d7e;font-size:11px}
+@media(max-width:600px){
+  main{padding:0 16px 50px}
+  header{height:70px}
+  .hero{padding:48px 5px 28px}
+  h1{font-size:38px}
+  .sub{font-size:14px}
+  .studio{padding:18px;border-radius:20px}
+  .tabs{font-size:13px;gap:18px}
+  .row{grid-template-columns:1fr 1fr}
+  textarea{height:170px}
+}
